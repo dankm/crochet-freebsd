@@ -212,6 +212,10 @@
 # FREEBSD_KERNEL_EXTRA_ARGS="-DKERNFAST"
 
 
+# You can set the number of jobs used during the buildworld and
+# buildkernel phases.
+# WORLDJOBS=`sysctl -n hw.ncpu`
+# KERNJOBS=`sysctl -n hw.ncpu`
 
 # OVERLAY FILES
 #
